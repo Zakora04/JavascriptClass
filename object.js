@@ -36,10 +36,14 @@ const usersettings = { fontsize: 18 };
 
 const finalSetting = Object.assign({}, defaultsettings, usersettings);
 console.log(finalSetting);
+ HEAD
 delete usersettings.defaultsettings;
 console.log(defaultsettings);
 
 //object.FromEntries
+
+
+//object.Entries
 
 const ent = [
   ["name", "tosin"],
@@ -51,6 +55,7 @@ console.log(Object.fromEntries(ent));
 const original = { A: 77, B: 66 };
 const final = { ...original, C: 55 };
 console.log(final);
+HEAD
 
 //delete property
 const user = {
