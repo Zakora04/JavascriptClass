@@ -114,3 +114,5 @@ console.log(user);
 //let contact = { name: "Sarah", phone: "555-1234" };
 let contact = { name: "Sarah", phone: "555-1234" };
 console.log("email" in contact);
+let prices = 19.9876;
+console.log(price.toFixed(2));
